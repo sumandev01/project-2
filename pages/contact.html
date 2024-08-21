@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project 2</title>
+</head>
+<body>
+	<h1>Contact Page</h1>
+	<a href="../index.html">Home</a>
+	<a href="about.html">About</a>
+	<a href="contact.html">Contact Us</a>
+	<a href="post-list.html">Blog</a>
+	<br>
+	<br>
+	<h3>Contact</h3>
+	<form action="#" method="post" enctype="multipart/form-data">
+		<label for="first_name">First Name:</label><br>
+		<input type="text" placeholder="Type Your First Name" name="first_name" id="first_name" class="first_name"><br><br>
+
+		<label for="last_name">Last Name:</label><br>
+		<input type="text" placeholder="Type Your last Name" name="last_name" id="last_name" class="last_name"><br><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" placeholder="Type Your email" name="email" id="email" class="email"><br><br>
+
+		<label for="phone_number">Phone Number:</label><br>
+		<input type="tel" placeholder="+8801234-567890" name="phone_namber" id="phone_number" class="phone_number" maxlength="14" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+		<label>Gander:</label><br>
+		<input type="radio" name="gander" id="male"><label for="male">Male</label>
+		<input type="radio" name="gander" id="female"><label for="female">Female</label><br><br>
+
+
+		<label for="date">Select Your Birthday:</label><br>
+		<input type="date" name="date" id="date" class="date"><br><br>
+
+		<label for="location">Select Your Location:</label><br>
+		<select id="location" name="location">
+			<option>Inside Dhaka</option>
+			<option>Outside Dhaka</option>
+		</select><br><br>
+
+		<label>Select Your Qualification</label><br>
+		<input type="checkbox" name="ssc" id="ssc">
+		<label for="ssc">S.S.C</label><br>
+		<input type="checkbox" name="hsc" id="hsc">
+		<label for="hsc">H.Sc</label><br><br>
+
+		<button type="Submite">Submit Now</button>
+		<button type="Reset">Reset Now</button>
+
+	</form>
+	
+</body>
+</html>
